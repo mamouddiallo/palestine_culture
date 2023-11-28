@@ -1,0 +1,359 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" nucontenu="IE=edge">
+    <meta name="viewport" width=device-width, initial-scale=1.0>
+    <title>Navbar</title>
+	<link rel="stylesheet" href="{% static 'css/enregistrement/style.css'%}">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="#">Art</a></li>
+                <li><a href="#">Dance</a></li>
+                <li><a href="#">Literature</a></li>
+                <li><a href="#">Gastronomy</a></li>
+            </ul>
+            <h1 class="logo"><img src="{% static 'images/enregistrement/drapeau-palestine.jpg'%}" width="100px" height="50px"></h1>
+			<h1 class="logo"><span style="color: red;">Pal</span>
+				<span>_</span>
+				<span style="color: green;">Culture</span>
+			</h1>
+        </div>
+    </nav>
+	<div class="carousel-frame">
+		<div class="carousel-slide">
+		  <img src="{% static 'images/enregistrement/art.jpg'%}" />
+		  <img src="{% static 'images/enregistrement/pexels-mikhail-nilov-8350944 dance.jpg'%}" />
+		  <img src="{% static 'images/enregistrement/litterature.jpg'%}" />
+		  <img src="{% static 'images/enregistrement/gastronomiepalestinine.jpeg'%}" />
+		  <img src="{% static 'images/enregistrement/mussé.jpg'%}" />
+		</div>
+		<i class="carousel-prev fas fa-chevron-left"></i>
+		<i class="carousel-next fas fa-chevron-right"></i>
+		<ol class="carousel-dots">
+		  <li></li>
+		  <li></li>
+		  <li></li>
+		  <li></li>
+		  <li></li>
+		  <li></li>
+		</ol>
+	  </div>
+	  <div class="milieu">
+		<div class="about">
+			<h1>About <span style="color: red;">Pal</span>
+				<span>_</span>
+				<span style="color: green;">Culture</span>
+			</h1>
+			<h3>Welcome to Pal_culture, where Palestinian culture comes to life through discovery, sharing, and preservation</h3>
+		</div>
+		<div class="troiscartes">
+			<div class="trois">
+				<div class="un">
+					<img src="{% static 'images/enregistrement/decouvrirlart.jpg' %}" alt="" width="90%" height="100%">
+				</div>
+				<div class="deux">
+					<img src="{% static 'images/enregistrement/decouvrirlart.jpg' %}" alt="" width="90%" height="100%">
+				</div>
+				<div class="three">
+					<img src="{% static 'images/enregistrement/decouvrirlart.jpg' %}" alt="" width="90%" height="100%">
+				</div>
+			</div>
+			<div class="cartes">
+				<div class="catees">
+					<div class="carte1">
+						<p>The <h3>discovery</h3> of Palestinian culture is a rich experience, delving into its history, traditions, and diversity. It offers a captivating glimpse into the daily life and heritage of a resilient people. This cultural immersion invites exploration of the myriad facets shaping the unique identity of this territory</p>
+					</div>
+					<div class="carte2">
+						<p>The <h3>sharing</h3> of Palestinian culture transcends borders, offering immersion in a rich fabric of traditions, stories, and values. It's an invitation to explore and celebrate the vibrant diversity that characterizes this unique cultural heritage</p>
+					</div>
+					<div class="carte3">
+						<p>The <h3>preservation</h3> of Palestinian culture through the protection of historical sites, the conservation of arts, cultural documentation, educational integration, support for artists, and global awareness is a crucial collective effort to ensure its legacy for future generations</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	  </div>
+	 <!-- ici c'est la gallery -->
+	<div class="contenu">
+
+		<div class="main">
+			<h1>Art</h1>
+			<ul class="cards">
+			  <li class="cards_item">
+				<div class="card">
+				  <div class="card_image"><img src="https://picsum.photos/500/300/?image=10"></div>
+				  <div class="card_content">
+					<h2 class="card_title">Card Grid Layout</h2>
+					<p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+					<button class="btn card_btn">Read More</button>
+				  </div>
+				</div>
+			  </li>
+			  <li class="cards_item">
+				<div class="card">
+				  <div class="card_image"><img src="https://picsum.photos/500/300/?image=5"></div>
+				  <div class="card_content">
+					<h2 class="card_title">Card Grid Layout</h2>
+					<p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+					<button class="btn card_btn">Read More</button>
+				  </div>
+				</div>
+			  </li>
+			  <li class="cards_item">
+				<div class="card">
+				  <div class="card_image"><img src="https://picsum.photos/500/300/?image=11"></div>
+				  <div class="card_content">
+					<h2 class="card_title">Card Grid Layout</h2>
+					<p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+					<button class="btn card_btn">Read More</button>
+				  </div>
+				</div>
+			  </li>
+			</ul>
+			<div class="dance">
+				<h1>Dance</h1>
+				<ul class="cards">
+					<li class="cards_item">
+					  <div class="card">
+						<div class="card_image"><img src="https://picsum.photos/500/300/?image=10"></div>
+						<div class="card_content">
+						  <h2 class="card_title">Card Grid Layout</h2>
+						  <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+						  <button class="btn card_btn">Read More</button>
+						</div>
+					  </div>
+					</li>
+					<li class="cards_item">
+					  <div class="card">
+						<div class="card_image"><img src="https://picsum.photos/500/300/?image=5"></div>
+						<div class="card_content">
+						  <h2 class="card_title">Card Grid Layout</h2>
+						  <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+						  <button class="btn card_btn">Read More</button>
+						</div>
+					  </div>
+					</li>
+					<li class="cards_item">
+					  <div class="card">
+						<div class="card_image"><img src="https://picsum.photos/500/300/?image=11"></div>
+						<div class="card_content">
+						  <h2 class="card_title">Card Grid Layout</h2>
+						  <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+						  <button class="btn card_btn">Read More</button>
+						</div>
+					  </div>
+					</li>
+			</div>
+			<div class="dance">
+				<h1>Literature</h1>
+				<ul class="cards">
+					<li class="cards_item">
+					  <div class="card">
+						<div class="card_image"><img src="https://picsum.photos/500/300/?image=10"></div>
+						<div class="card_content">
+						  <h2 class="card_title">Card Grid Layout</h2>
+						  <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+						  <button class="btn card_btn">Read More</button>
+						</div>
+					  </div>
+					</li>
+					<li class="cards_item">
+					  <div class="card">
+						<div class="card_image"><img src="https://picsum.photos/500/300/?image=5"></div>
+						<div class="card_content">
+						  <h2 class="card_title">Card Grid Layout</h2>
+						  <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+						  <button class="btn card_btn">Read More</button>
+						</div>
+					  </div>
+					</li>
+					<li class="cards_item">
+					  <div class="card">
+						<div class="card_image"><img src="https://picsum.photos/500/300/?image=11"></div>
+						<div class="card_content">
+						  <h2 class="card_title">Card Grid Layout</h2>
+						  <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+						  <button class="btn card_btn">Read More</button>
+						</div>
+					  </div>
+					</li>
+			</div>
+			<div class="dance">
+				<h1>Gastronomy</h1>
+				<ul class="cards">
+					<li class="cards_item">
+					  <div class="card">
+						<div class="card_image"><img src="https://picsum.photos/500/300/?image=10"></div>
+						<div class="card_content">
+						  <h2 class="card_title">Card Grid Layout</h2>
+						  <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+						  <button class="btn card_btn">Read More</button>
+						</div>
+					  </div>
+					</li>
+					<li class="cards_item">
+					  <div class="card">
+						<div class="card_image"><img src="https://picsum.photos/500/300/?image=5"></div>
+						<div class="card_content">
+						  <h2 class="card_title">Card Grid Layout</h2>
+						  <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+						  <button class="btn card_btn">Read More</button>
+						</div>
+					  </div>
+					</li>
+					<li class="cards_item">
+					  <div class="card">
+						<div class="card_image"><img src="https://picsum.photos/500/300/?image=11"></div>
+						<div class="card_content">
+						  <h2 class="card_title">Card Grid Layout</h2>
+						  <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+						  <button class="btn card_btn">Read More</button>
+						</div>
+					  </div>
+					</li>
+			</div>
+		</div>
+		<div class="picture_stat">
+			<div class="picture">
+					<img src="{% static 'images/enregistrement/women.jpg' %}" alt="" width="100%" height="100%">
+			</div>
+			<div class="stat">
+	
+			</div>
+		</div>
+		<div class="upcoming">
+			<p>WHAT’S GOING ON</p>
+			<h1>Upcoming Exhibitions</h1>
+		</div>
+		<div class="dance">
+			<ul class="cards">
+				<li class="cards_item">
+				  <div class="card">
+					<div class="card_image"><img src="{% static 'images/enregistrement/comming1.jpg' %}"></div>
+					<div class="card_content">
+					  <h2 class="card_title">Card Grid Layout</h2>
+					  <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+					  <button class="btn card_btn">Read More</button>
+					</div>
+				  </div>
+				</li>
+				<li class="cards_item">
+				  <div class="card">
+					<div class="card_image"><img src="{% static 'images/enregistrement/comming2.jpg' %}"></div>
+					<div class="card_content">
+					  <h2 class="card_title">Card Grid Layout</h2>
+					  <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+					  <button class="btn card_btn">Read More</button>
+					</div>
+				  </div>
+				</li>
+				<li class="cards_item">
+				  <div class="card">
+					<div class="card_image"><img src="{% static 'images/enregistrement/comming1.jpg' %}"></div>
+					<div class="card_content">
+					  <h2 class="card_title">Card Grid Layout</h2>
+					  <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+					  <button class="btn card_btn">Read More</button>
+					</div>
+				  </div>
+				</li>
+		</div>
+	</div>
+	<div class="video-container">
+		<video autoplay loop muted preload="auto" class="background-video">
+		  <!-- Ajoutez la source de votre vidéo en modifiant les liens ci-dessous -->
+		  <source id="mp4" src="{% static 'videos\enregistrement\palestine2 ‐ Réalisée avec Clipchamp.mp4' %}" type="video/mp4">
+		  <source id="webm" src="{% static 'videos\enregistrement\palestine2 ‐ Réalisée avec Clipchamp.mp4' %}" type="video/webm">
+		  <source id="ogv" src="{% static 'videos\enregistrement\palestine2 ‐ Réalisée avec Clipchamp.mp4' %}" type="video/ogg">
+		</video>
+		<div class="content">
+		  <!-- Votre contenu ici -->
+		  <h1>Sign up now for PALCul.</h1>
+		  <p>Join us in promoting Palestinian culture.</p>
+		  <button class="bouton"><a class="Free" href="{% url 'inscription' %}"><h1>Free registration</h1></a></button>
+		</div>
+	</div>
+	<div class="espace">
+
+	</div>
+	<footer class="section bg-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="">
+                        <h6 class="footer-heading text-uppercase text-white">Information</h6>
+                        <ul class="list-unstyled footer-link mt-4">
+                            <li><a href="">Pages</a></li>
+                            <li><a href="">Our Team</a></li>
+                            <li><a href="">Feuchers</a></li>
+                            <li><a href="">Pricing</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="">
+                        <h6 class="footer-heading text-uppercase text-white">Ressources</h6>
+                        <ul class="list-unstyled footer-link mt-4">
+                            <li><a href="">Monitoring Grader </a></li>
+                            <li><a href="">Video Tutorial</a></li>
+                            <li><a href="">Term &amp; Service</a></li>
+                            <li><a href="">Zeeko API</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="">
+                        <h6 class="footer-heading text-uppercase text-white">Help</h6>
+                        <ul class="list-unstyled footer-link mt-4">
+                            <li><a href="">Sign Up </a></li>
+                            <li><a href="">Login</a></li>
+                            <li><a href="">Terms of Services</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="">
+                        <h6 class="footer-heading text-uppercase text-white">Contact Us</h6>
+                        <p class="contact-info mt-4">Contact us if need help withanything</p>
+                        <p class="contact-info">+01 123-456-7890</p>
+                        <div class="mt-5">
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a href="#"><i class="fab facebook footer-social-icon fa-facebook-f"></i></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fab twitter footer-social-icon fa-twitter"></i></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fab google footer-social-icon fa-google"></i></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fab apple footer-social-icon fa-apple"></i></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="text-center mt-5">
+            <p class="footer-alt mb-0 f-14">2019 © Anup, All Rights Reserved</p>
+        </div>
+    </footer>
+	
+	  <script
+			src="{% static 'js/enregistrement/main.js'%}"
+		
+	  ></script>
+</body>
+</html>

@@ -1,5 +1,6 @@
 asgiref
 Django
+gunicorn
 sqlparse
 typing_extensions
 tzdata

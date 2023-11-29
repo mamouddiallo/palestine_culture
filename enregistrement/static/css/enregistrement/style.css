@@ -17,7 +17,7 @@
 
 .container{
     max-width: 1200px;
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
 
@@ -27,7 +27,7 @@
     width: 100%;
     background: #fff;
     color:white;
-	background-color: #000;
+	  background-color: #000;
     opacity: 0.85;
     z-index: 100;
 }
@@ -37,6 +37,7 @@
     justify-content: space-between;
     height: 64px;
     align-items: center;
+    width: 100%;
 }
 
 .menu-items{
@@ -268,9 +269,15 @@
 	/* background-color: #117964; */
 	margin: auto;
   }
+  .about h3{
+    text-align: center;
+    padding: 1rem;
+  }
   .troiscartes{
-	width: 100%;
-	height: 500px;
+	width: 90%;
+	height: auto;
+  /* border: 2px solid green; */
+  margin: 0 auto;
   }
   .trois{
 	width: 100%;
@@ -358,12 +365,14 @@ html {
 }
 
 .contenu{
-  width: 91%;
+  width: 90%;
   margin: auto;
 }
 
 .main{
-  width: 100%;
+  width: 90%;
+  /* border: 2px solid black; */
+  margin:0 auto;
 }
 
 h1 {
@@ -453,17 +462,32 @@ img {
   font-weight: 400;
 }
 
-
+.dance{
+  width: 100%;
+  margin: 0 auto;
+}
+.dance2{
+  width: 93%;
+  height: auto;
+  margin: 0 auto;
+  /* border: 2px solid green; */
+  padding: 1rem;
+}
 .dance h1{
   text-align: center;
   color: #000;
 }
-.upcoming, h1{
+.upcoming{
   text-align: center;
-  color: black;
+  width: 90%;
+  margin: auto;
+  color: #000;
+}
+.upcoming_text{
+  color:black;
 }
 .picture_stat{
-  width: 90%;
+  width: 88%;
   height: 500px;
   margin: auto;
   display: flex;
@@ -477,12 +501,12 @@ img {
 }
 .stat{
   width: 50%;
-  height: 368px;
+  height: 413px;
   background-color:black;
 }
 .video-container {
   position: relative;
-  width: 90%;
+  width: 100%;
   height: 100vh;
   overflow: hidden;
   margin: auto;
@@ -525,7 +549,7 @@ h1, p {
 /* footer */
 
 .bg-footer {
-  background-color: #33383c;
+  background-color: rgb(0, 0, 0);
   padding: 50px 0 30px;
   
 }
@@ -536,10 +560,11 @@ h1, p {
 }
 .footer-heading {
   letter-spacing: 2px;
+  color: white;
 }
 
 .footer-link a {
-  color: #acacac;
+  color: white;
   line-height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -587,6 +612,7 @@ h1, p {
 
 .footer-alt {
   color: #acacac;
+  text-align: center;
 }
 
 .footer-heading {
